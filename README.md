@@ -17,7 +17,18 @@ and onDestroy() (is called before the activity is destroyed)
 3.  Explain each step of the sprint in agile.
 
 Everyday there is a standup to assign stories (tasks) to each person, and the task to be completed.
-T
+at the end of the week there is a grooming meeting to figure out the progress of the feature.
+Then on the second week there are pull request from scrum manager. At the end of the sprint all
+pull request are finalized andnext sprint is planned out.
 
 4.  What is dalvik and ART?
-5.  How is the android platform architecture designed?orkWeek1Day3
+
+ART uses AOT compilation while dalvik uses Jit. they are different runtime enviroments.
+Art installs native byte code translation on installation  while dalvik uses a just in time
+compiler
+
+5.  How is the android platform architecture designed?
+
+Androi has a linux kernel followed by a HAL layer for its I/O components, next it has and
+the android run time environment with native c/c++ libraries, then it has the Java API framework
+Lastly it has the System Apps layer.
